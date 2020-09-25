@@ -1,5 +1,5 @@
 # Group Normalization in Keras
-A Keras implementation of [Group Normalization](https://arxiv.org/abs/1803.08494) by Yuxin Wu and Kaiming He.
+A Keras implementation of [Group Normalization](https://arxiv.org/abs/1803.08494) from the paper of Yuxin Wu and Kaiming He.
 
 Useful for fine-tuning of large models on smaller batch sizes than in research setting (where batch size is very large due to multiple GPUs). Similar to Batch Renormalization, but performs significantly better on ImageNet.
 
